@@ -4,7 +4,7 @@ array = []
 
 while i < collection.length
 
-yield array.push(collection[i])
+array << yield(collection[i])
 
 i += 1
 end
