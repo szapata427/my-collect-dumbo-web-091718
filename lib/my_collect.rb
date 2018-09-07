@@ -1,8 +1,4 @@
-my_collect(collection)
-i = 0
+my_collect(collection) do |lang|
+  lang.upcase
 
-while i < collection.length
-yield collection[i].upcase
-
-i += 1
 end
