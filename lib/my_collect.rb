@@ -8,5 +8,5 @@ yield array.push(collection[i])
 
 i += 1
 end
-
+array
 end
